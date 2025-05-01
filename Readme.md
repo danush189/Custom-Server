@@ -58,7 +58,7 @@ pip install flask prometheus_client requests
 1. Start the Flask application:
 
 ```bash
-python app.py
+flask run --host=0.0.0.0 --port=5000
 ```
 
 2. Start Prometheus (adjust path as needed):
